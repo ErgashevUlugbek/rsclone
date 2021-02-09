@@ -1,10 +1,24 @@
-header {
+header, footer {
     position: sticky;
-    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    background-color: var(--yellow);
+    z-index: 9999;
+}
+
+header .container, footer .container {
     display: flex;
     justify-content: space-between;
-    left: 0;
-    bottom: 0;
-    background-color: var(--yellow);
 }
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+
 
